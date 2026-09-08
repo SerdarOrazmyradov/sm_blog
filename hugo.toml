@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://gen-lang-client-0921879685.web.app/"
 languageCode = "en-us"
 title = "SM Blog"
 theme="hugo-theme-dream"

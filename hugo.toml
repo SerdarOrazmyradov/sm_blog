@@ -2,3 +2,8 @@ baseURL = "https://gen-lang-client-0921879685.web.app/"
 languageCode = "en-us"
 title = "SM Blog"
 theme="hugo-theme-dream"
+
+[params]
+  author = "Serdar"
+  description = "Software Developer Blog"
+  avatar = "https://upload.wikimedia.org/wikipedia/en/e/ed/Nick_Wilde_Zootopia_2.webp?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20251030000405"

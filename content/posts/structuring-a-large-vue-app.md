@@ -1,14 +1,11 @@
 ---
 title: "Structuring a Large Vue App: A Feature-Based Folder Architecture"
+description:"Why the default components/composables/stores split breaks down at scale, and how a feature-first structure fixes it."
 date: 2026-09-10T09:58:12+05:00
+draft: false
+cover: "/images/structuring-a-large-vue-app.png"
 lastmod: 2026-09-10T09:58:12+05:00
 author: Reza Baar
-# avatar: /img/author.jpg
-# authorlink: https://author.site
-cover: "/images/structuring-a-large-vue-app.png"
-# covercaption: a description of the cover image
-# images:
-#   - /img/cover.jpg
 categories:
   - Development
 tags:
@@ -16,13 +13,10 @@ tags:
   - Architecture
   - Frontend
   - JavaScript
-# nolastmod: true
-# math: true
-draft: false
 canonicalURL: "https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS"
 ---
 
-```markdown
+
 > 📌 **Salgylanma:** Bu makala Reza Baar tarapyndan ýazylan bolup, [Certificates.dev](https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS) saýtyndan alyndy. Original awtor: **Reza Baar** (*September 9, 2026*).
 
 ---

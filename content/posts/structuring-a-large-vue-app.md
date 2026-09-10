@@ -1,11 +1,11 @@
 ---
-title: Structuring a Large Vue App: A Feature-Based Folder Architecture
+title: "Structuring a Large Vue App: A Feature-Based Folder Architecture"
 date: 2026-09-10T09:58:12+05:00
 lastmod: 2026-09-10T09:58:12+05:00
 author: Reza Baar
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: https://api.certificates.dev/storage/rEZu64sdlHy7JkF3hLY2kjV1MPr7d2gVBSiC6TEC.png
+cover: "https://api.certificates.dev/storage/rEZu64sdlHy7JkF3hLY2kjV1MPr7d2gVBSiC6TEC.png"
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg
@@ -19,80 +19,11 @@ tags:
 # nolastmod: true
 # math: true
 draft: true
-canonicalURL: https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS
----
-
-Siz **Hugo** we **hugo-theme-dream** temasy bilen işledýän bolsaňyz, bu makalany saýtyňyzda paýlaşmak örän aňsat. Aşakda makalany dogry formatda goşmak, suratyny goýmak we original çeşmä salgylanmak üçin doly gollanma taýýarlandy.
-
----
-
-### 1. Täze makala üçin Markdown faýlyny dörediň
-
-Terminalda (ýa-da saýtyňyzyň bukjasynda) täze makala faýlyny dörediň:
-
-```bash
-hugo new posts/structuring-a-large-vue-app.md
-
-```
-
----
-
-### 2. Front Matter (Makalanyň başlygy we sazlamalary)
-
-Döredilen faýly açyň we ýokarky meta-maglumatlary (Front Matter) aşakdakylar ýaly sazlaň. Bu ýerde original çeşmä **salgylanma (canonical URL)** goşulýar:
-
-```yaml
----
-title: "Structuring a Large Vue App: A Feature-Based Folder Architecture"
-date: 2026-09-09T10:00:00+05:00
-draft: false
-tags: ["Vue.js", "Architecture", "Frontend", "JavaScript"]
-categories: ["Development"]
-cover: "cover.jpg" # Ýa-da "https://certificates.dev/.../image.png" URL görnüşinde
 canonicalURL: "https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS"
 ---
 
-```
-
-> **Bellik:** Original makala salgylanmak üçin hem Front Matter-e `canonicalURL` goşuldy, hem-de makalanyň başynda/ahyrynda salgylanma tekstini ýazarys.
-
----
-
-### 3. Makalanyň Suratyny Sazlamak
-
-Suraty goýmak üçin **2 sany usul** bar:
-
-#### Usul A: Suraty ýükläp almak (Maslahat berilýär)
-
-1. Original makaladaky baş suraty ýükläp alyň.
-2. Suraty saýtyňyzyň `static/images/` bukjasynda saklaň (mysal üçin: `static/images/vue-architecture-cover.jpg`).
-3. Front Matter-de şeýle görkeziň:
-```yaml
-cover: "/images/vue-architecture-cover.jpg"
-
-```
-
-
-
-#### Usul B: Doğry URL arkaly baglamak
-
-Eger suraty ýükläp almazdan göni URL bilen goýmak isleseňiz:
-
-```yaml
-cover: "https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture/cover-image.png"
-
-```
-
-*(Bellik: Käbir daşarky saýtlaryň suratlary Hotlink goragly bolup biler, şol sebäpli **Usul A** durnuklyrakdyr).*
-
----
-
-### 4. Makalanyň Mazmuny we Salgylanma Görelesi
-
-Makalaňyzyň iň ýokarsyna ýa-da iň aşaklygyna original çeşmä salgylanma (attribution) goşmalysyňyz. Aşakdaky taýýar Markdown şablonyny faýlyňyza göçürip alyp bilersiňiz:
-
 ```markdown
-> 📌 **Salgylanma:** Bu makala Reza Baar tarapyndan ýazylan bolup, [Certificates.dev](https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS) saýtyndan terjime edildi / alşyldy. Original awtor: **Reza Baar** (*September 9, 2026*).
+> 📌 **Salgylanma:** Bu makala Reza Baar tarapyndan ýazylan bolup, [Certificates.dev](https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS) saýtyndan alyndy. Original awtor: **Reza Baar** (*September 9, 2026*).
 
 ---
 
@@ -248,5 +179,3 @@ Eger saýtyňyzyň SEO görkezijileri üçin original salgylanma baglamasyny tem
 {{ end }}
 
 ```
-
-Bu ädim Google we beýleki gözleg ulgamlaryna bu makalanyň original çeşmesiniň **Certificates.dev** saýtydygyny dogry bildirer.

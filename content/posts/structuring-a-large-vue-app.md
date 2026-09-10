@@ -5,7 +5,7 @@ lastmod: 2026-09-10T09:58:12+05:00
 author: Reza Baar
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: "images/structuring-a-large-vue-app.png"
+cover: "/images/structuring-a-large-vue-app.png"
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg
@@ -18,7 +18,7 @@ tags:
   - JavaScript
 # nolastmod: true
 # math: true
-draft: true
+draft: false
 canonicalURL: "https://certificates.dev/blog/structuring-a-large-vue-app-a-feature-based-folder-architecture?friend=MOKKAPPS"
 ---
 

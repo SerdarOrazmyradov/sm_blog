@@ -5,7 +5,7 @@ lastmod: 2026-09-10T09:58:12+05:00
 author: Reza Baar
 # avatar: /img/author.jpg
 # authorlink: https://author.site
-cover: "https://api.certificates.dev/storage/rEZu64sdlHy7JkF3hLY2kjV1MPr7d2gVBSiC6TEC.png"
+cover: "images/structuring-a-large-vue-app.png"
 # covercaption: a description of the cover image
 # images:
 #   - /img/cover.jpg

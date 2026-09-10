@@ -6,4 +6,4 @@ theme="hugo-theme-dream"
 [params]
   author = "Serdar"
   description = "Software Developer Blog"
-  avatar = "https://gbaike-image.cdn.bcebos.com/622762d0f703918fa0ec7bcdf364319759ee3d6d6e38/622762d0f703918fa0ec7bcdf364319759ee3d6d6e38_16_9?x-bce-process=image/format,f_auto"
+  avatar = "images/Gary_De_Snake.webp"

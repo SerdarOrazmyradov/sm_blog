@@ -8,6 +8,7 @@ lastmod: 2026-09-10T09:58:12+05:00
 author: Reza Baar
 categories:
   - Development
+keyboards: ["vue","architecture","feature","components","composables","stores","split"]
 tags:
   - Vue.js
   - Architecture

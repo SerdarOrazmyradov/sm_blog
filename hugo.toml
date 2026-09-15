@@ -1,4 +1,4 @@
-baseURL = "https://gen-lang-client-0921879685.web.app/"
+baseURL = "https://gen-lang-client-0921879685.firebaseapp.com/"
 languageCode = "en-us"
 title = "SM Blog"
 theme="hugo-theme-dream"
@@ -7,3 +7,9 @@ theme="hugo-theme-dream"
   author = "Serdar"
   description = "Software Developer Blog"
   avatar = "images/Gary_De_Snake.webp"
+
+[privacy]
+  [privacy.twitter]
+    enable = true
+
+enableRobotsTXT = true
